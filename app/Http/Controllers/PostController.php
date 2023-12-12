@@ -120,6 +120,8 @@ class PostController extends Controller
         $post = Post::findOrFail($id);
 
         $old_image = $post->image;
+        $post->recipes()->delete();
+        $post->alamats()->delete();
         $post->delete();
         if(!empty($old_image) && (Storage::disk('public'))->exists($old_image)){
             Storage::disk('public')->delete($old_image);
