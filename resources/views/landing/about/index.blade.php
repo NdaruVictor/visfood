@@ -1,14 +1,11 @@
 <x-landing-layout>
-
     <div class="text-center mt-10">
         <h2 class="text-2xl font-bold text-black">About Us</h2>
     </div>
-
     <div class="w-full pt-14">
         <div class="h-3/4 w-3/4 mx-auto  rounded-lg bg-white shadow-lg ">
             <div class="flex flex-wrap items-center">
                 <div class="w-full shrink-0 grow-0 basis-auto flex items-center justify-center p-8">
-
                     <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, odit iste
                         perspiciatis alias deleniti expedita quae, non, molestias culpa ratione itaque sed? Eveniet aut
                         in tempore et natus dolorem recusandae deleniti sit, autem laudantium totam dolores iure
@@ -43,10 +40,8 @@
                         impedit architecto expedita facere excepturi quae harum? Repellendus recusandae, ab sit amet
                         iste veniam officia praesentium libero voluptatem nulla ut earum cumque vel eaque magnam placeat
                     </p>
-
                 </div>
             </div>
         </div>
     </div>
-
 </x-landing-layout>
