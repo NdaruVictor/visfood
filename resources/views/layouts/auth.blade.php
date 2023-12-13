@@ -29,8 +29,8 @@
 </head>
 
 <body class="font-poppins antialiased">
-    
-    <div class="flex flex-col min-h-screen text-gray-900 bg-gray-100 dark:bg-dark-eval-0 dark:text-gray-200"  style="background-image: url('{{ asset('image/bg_login.jpg') }}'); background-repeat: no-repeat; background-position: center; background-size: cover;">
+
+    <div class="flex flex-col min-h-screen text-gray-900 bg-gray-100 dark:bg-dark-eval-0 dark:text-gray-200"  style="background-image: url('{{ asset('img/bg login.jpg') }}'); background-repeat: no-repeat; background-position: center; background-size: cover;">
         {{ $slot }}
     </div>
 
